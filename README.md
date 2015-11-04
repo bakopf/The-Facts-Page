@@ -11,10 +11,12 @@ Technologies I plan to use:
 2. Css3
 3. JavaScript
 4. jQuery lib
+5. Usage of Device Storage
 5. PHP
 6. MYSQL
 7. Xampp for Development
 8. ....
+9. Probably Cordova if i try to get a installable Android WebApp
 
 Any suggestions are appreciated.
 
