@@ -1,4 +1,52 @@
 body {
 	width: 100%;
-	background-color: gray;
+	background-color: #fff;
+	font-family: "PT Sans";
+	margin: 0;
+	padding: 0;
+}
+
+.topbar {
+	width: 95%;
+	margin: 0 auto;
+	padding-bottom: 35px;
+	height: auto;
+}
+
+.logo{
+	float: right;
+}
+
+.menuicon{
+	float: left;
+}
+
+.clear {
+	clear:both;
+}
+
+.headimage{
+	width: 95%;
+	height: 200px;
+	border: 1px solid black;
+	margin: 0 auto;
+}
+
+article {
+	width: 95%;
+	margin: -1px auto 0;
+	border: 1px solid black;
+	top: -1px;
+	text-align: center;
+	min-height: 200px;
+}
+
+
+.footer{
+	position: fixed;
+	bottom:0px;
+	width: 100%;
+	border: 1px solid black;
+	background-color: #fff;
+	text-align: center;
 }
