@@ -19,6 +19,7 @@ Technologies I plan to use:
 Any suggestions are appreciated.
 
 Started: 04.11.2015
+
 Current state: initial frame for app and initial css
 
 
