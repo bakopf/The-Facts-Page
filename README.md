@@ -3,20 +3,26 @@ MyFactsApp
 
 This is my personal project I'm working on.
 
-My plan is to design and implement a webapp completely without any css framework.
+My plan is to design and implement a WebApp and maybe generate a Hybrid App with Cordova.
 
 Technologies I plan to use:
+
+First Steps:
 
 1. HTML5
 2. Css3
 3. JavaScript
 4. jQuery lib
-5. Usage of Device Storage
 5. PHP
 6. MYSQL
 7. Xampp for Development
-8. ....
-9. Probably Cordova if i try to get a installable Android WebApp
+
+Second Step:
+
+1. CSS Framework like Foundation or Bootstrap
+2. Maybe jQuery Mobil lib for better Event-Handling
+
+I don't know yet if i go by hand or use something like angular for a MVC.
 
 Any suggestions are appreciated.
 
