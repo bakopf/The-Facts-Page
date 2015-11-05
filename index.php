@@ -4,12 +4,12 @@ include('includes/header.php');
   <body>
   <nav>
     <div class="topbar">
-      <div class="logo">
-        LOGO
+      <div class="logoplace">
+        <img class="logo" src="images/navigation/logo.png"/>
       </div>
 
       <div class="menuicon">
-        MENÜ
+        <img class="icon" src="images/navigation/navicon.png"/>
       </div>
     </div>
   <!-- Navigation Bar with jQuery-->
