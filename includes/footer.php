@@ -1,3 +1,4 @@
+  </article>
   <footer>
   <div class="footer">
   	Iam the footer bitch
