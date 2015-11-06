@@ -24,6 +24,7 @@
 
       <div class="menuholder">
         <a href="index.php">Start</a>
+        <a href="fact_page.php">Facts</a>
         <a href="write_page.php">Write</a>
       </div>
     </div>
