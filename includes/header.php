@@ -29,8 +29,8 @@
     </div>
   <!-- Navigation Bar with jQuery-->
   </nav>
-  <div class="clear"></div>
   <div class="headimage">
+    HEADER IMAGE
   </div>
 
   <article>
