@@ -47,7 +47,7 @@ include('./includes/header.php');
 <h1>Send a Fact</h1>
 
 <form class="factform" method="POST" action="">
-	<input id="fact" name="fact" class="facttext" type="text" placeholder="fact" required/>
+	<textarea id="fact" name="fact" class="facttext" type="text" placeholder="fact" required></textarea>
 	<input class="button" type="button" id="sendfact" value="Fact abschicken"/>
 </form>
 <div class="formsuccess">
