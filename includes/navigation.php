@@ -4,15 +4,16 @@
     <a href="index.php" data-role="button">Home</a>
     <a href="fact_page.php" data-role="button">Read</a>
     <a href="write_page.php" data-role="button">Write</a>
-    <a href="#" data-role="button">About</a>
-    <a href="#" data-role="button">Contact</a>
-    <a href="#" data-role="button">Impressum</a>
+    <a href="about.php" data-role="button">About</a>
+    <a href="contact.php" data-role="button">Contact</a>
+    <a href="impressum.php" data-role="button">Impressum</a>
   </div>
 </div>
 
 <div data-role="header">
-  <h1>The Facts App</h1>
+ <h1><a href="index.php"><img  width="120" src="images/navigation/logo.png"></a></h1>
   <a id="bars-button" data-icon="bars" class="ui-btn-left" href="#myPanel">Menu</a>
+
 </div>
 
 
