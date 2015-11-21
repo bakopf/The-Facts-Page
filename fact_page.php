@@ -1,6 +1,5 @@
 <?php
 include('includes/header.php');
-include('database/read_fact.php');
 ?>
 <script>
 $(document).ready(function(){
