@@ -6,18 +6,23 @@ $('.ui-panel').css({
     'min-height': panelheight
 });
 
-window.onload = function() {
-
-    var myShakeEvent = new Shake({
-        threshold: 15
-    });
-
-    myShakeEvent.start();
-
-    window.addEventListener('shake', shakeEventDidOccur, false);
-
-    function shakeEventDidOccur () {
-
-        alert('shaker active!');
+var isMobile = {
+    Android: function() {
+        return navigator.userAgent.match(/Android/i);
+    },
+    BlackBerry: function() {
+        return navigator.userAgent.match(/BlackBerry/i);
+    },
+    iOS: function() {
+        return navigator.userAgent.match(/iPhone|iPad|iPod/i);
+    },
+    Opera: function() {
+        return navigator.userAgent.match(/Opera Mini/i);
+    },
+    Windows: function() {
+        return navigator.userAgent.match(/IEMobile/i);
+    },
+    any: function() {
+        return (isMobile.Android() || isMobile.BlackBerry() || isMobile.iOS() || isMobile.Opera() || isMobile.Windows());
     }
 };
