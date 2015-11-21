@@ -1,18 +1,17 @@
 <?php
 include('includes/header.php');
 include('database/read_fact.php');
-
 ?>
 
-    <div class="factName">
+ <div data-role="content">
+ 	  <a onclick="window.location.reload(true);" class="reload" data-role="button">new fact</a> 
       <h1>Here is your awesome f4ct:</h1>
-    </div>
+   
 
-    <div class="fact">
+
       <p><?php echo $fact['fact'];?></p>
-    </div>
-  <!-- Main content of the Pages -->
-  
+
+   </div>
 
 <?php
 include('includes/footer.php');
