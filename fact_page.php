@@ -2,16 +2,29 @@
 include('includes/header.php');
 include('database/read_fact.php');
 ?>
+<script>
+$(document).ready(function(){
+	$(".reload").click(function(){
+		$.ajax({
+		  type: "POST",
+		  url: "database/read_fact.php",
+		  datatype: "html",
+		  success: function(data) {
+		    $("#fact").html(data);
+		    }
+		});
+	});
+});
 
- <div data-role="content">
- 	  <a onclick="window.location.reload(true);" class="reload" data-role="button">new fact</a> 
-      <h1>Here is your awesome f4ct:</h1>
-   
 
 
-      <p><?php echo $fact['fact'];?></p>
+</script>
 
-   </div>
+	<div data-role="content">
+    	<a class="reload" data-role="button">get f4ct</a> 
+
+    	<p id="fact"></p>
+    </div>
 
 <?php
 include('includes/footer.php');
