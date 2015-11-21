@@ -4,6 +4,7 @@
     <a href="index.php" data-role="button">Home</a>
     <a href="fact_page.php" data-role="button">Read</a>
     <a href="write_page.php" data-role="button">Write</a>
+    <a href="shake_fact.php" data-role="button">Shaker</a>
     <a href="about.php" data-role="button">About</a>
     <a href="contact.php" data-role="button">Contact</a>
     <a href="impressum.php" data-role="button">Impressum</a>

@@ -6,3 +6,18 @@ $('.ui-panel').css({
     'min-height': panelheight
 });
 
+window.onload = function() {
+
+    var myShakeEvent = new Shake({
+        threshold: 15
+    });
+
+    myShakeEvent.start();
+
+    window.addEventListener('shake', shakeEventDidOccur, false);
+
+    function shakeEventDidOccur () {
+
+        alert('shaker active!');
+    }
+};
