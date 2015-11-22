@@ -2,8 +2,10 @@
 $(document).ready(function(){
     if(isMobile.any()) {
       $("#shaker").css("display", "block");
+      $("#getfact").css("display", "none");
     } else {
       $("#shaker").css("display", "none");
+      $("#getfact").css("display", "block");
     }
 });
 
@@ -12,9 +14,9 @@ $(document).ready(function(){
   <div data-role="controlgroup" data-corners="false">
     <h2>Menü</h2>
     <a href="index.php" data-role="button">Home</a>
-    <a href="fact_page.php" data-role="button">Read</a>
-    <a href="write_page.php" data-role="button">Write</a>
-    <a href="shake_fact.php" style="display: none;" id="shaker" data-role="button">Shaker</a>
+    <a href="fact_page.php" style="display: none;" id="getfact" data-role="button">Get Fact</a>
+    <a href="shake_fact.php" style="display: none;" id="shaker" data-role="button">Shake Fact</a>
+    <a href="write_page.php" data-role="button">Send Fact</a>
     <a href="about.php" data-role="button">About</a>
     <a href="contact.php" data-role="button">Contact</a>
     <a href="impressum.php" data-role="button">Impressum</a>

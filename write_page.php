@@ -49,12 +49,14 @@
 		<textarea id="fact" name="fact" class="facttext" type="text" placeholder="fact" required></textarea>
 		<input class="button" type="button" id="sendfact" value="Fact abschicken"/>
 	</form>
-	<div class="formsuccess">
-	YES!
+	<div class="formsuccess" style="text-align: center;">
+	Thank you for your awesome Fact!
+	<a onclick="location.reload();" data-role="button">Send more Facts</a> 
+
 	</div>
 
-	<div class="ausfuellen">
-		leeres formular
+	<div class="ausfuellen" style="text-align: center;">
+		Bitte Ausfüllen
 	</div>
 </div>
 <?php
