@@ -4,11 +4,11 @@ include('includes/header.php');
 <script>
 
 function reloadFact(){
-	$.ajax({
-	  type: "POST",
-	  url: "database/read_fact.php",
-	  datatype: "html",
-	  success: function(data) {
+        $.ajax({
+		  type: "POST",
+		  url: "database/read_fact.php",
+		  datatype: "html",
+		  success: function(data) {
 	    $("#fact").html(data);
 	    }
 	});
