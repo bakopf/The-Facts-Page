@@ -5,6 +5,14 @@ This is my personal project I'm working on.
 
 My plan is to design and implement a WebApp and maybe generate a Hybrid App with Cordova.
 
+To run it i recommend using XAMPP to start Apache and MySQL.
+
+The Connection for your local database can be set in the database/connection.php file.
+
+You need to add a new Table and a Field in your Database to read and write the facts.
+
+You can change the name of the Table and the Field in the database/read_fact.php and database/write_fact.php
+
 Technologies I plan to use:
 
 First Steps:
@@ -28,6 +36,6 @@ Any suggestions are appreciated.
 
 Started: 04.11.2015
 
-Current state: initial frame for app and initial css
+Current state: Added some Functions / Scripte and jQuery Mobil Framework
 
 
